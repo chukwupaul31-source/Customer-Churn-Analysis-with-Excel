@@ -41,8 +41,8 @@ This write up is organized to provide a clear overview of my projects and its de
    
  ## 🗂️Dashboard Preview
 Below is the static preview of the Excel dashboard. You can download the .xlsx file from the excel folder to explore the analysis in details.
+<img width="929" height="310" alt="Telco-churndasnboard" src="https://github.com/user-attachments/assets/b8548744-92e3-4cfc-90f7-c6bb00810ad9" />
 
-## 📈Key Insights
 Based on my analysis, here are some of the key findings:
 - **Payment Method**: I find out that customers with using electronic checks as their payment method have the highest churn rate, followed by mail mailed check, then Bank transfer, and finally credits card.
 - **Contract Types Matters**: Customers with a **Month-to-month contract**  have a higher churn rate compared to those with one year,  and Two year contracts.
