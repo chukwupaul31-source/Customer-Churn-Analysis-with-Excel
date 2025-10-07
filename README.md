@@ -37,7 +37,7 @@ This write up is organized to provide a clear overview of my projects and its de
 - README.MD: This file, provide a comprehensive description of my projects, including the objective, methodology, and key findings.
 - Data/: Contains the original raw dataset used for the analysis, typically named [WA_Fn-UseC_-Telco-Customer-Churn] https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - Excel/: This folder holds the final Excel workbook ( Customer churn Analysis Dashboard), which includes all the data analysis sheets and the final dashboard
-[https://eu.docworkspace.com/d/sIGKF5pGmAoPckMcG?sa=601.1037]
+[[https://eu.docworkspace.com/d/sIGKF5pGmAoPckMcG?sa=601.1037](https://eu.docworkspace.com/d/sIJqF5pGmAtGilMcG?sa=601.1037)]
 - Screenshot/: This contains the visual preview of the in image format (e.g., .png or .jpg)
    
  ## 🗂️Dashboard Preview
