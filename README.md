@@ -41,7 +41,6 @@ This write up is organized to provide a clear overview of my projects and its de
    
  ## 🗂️Dashboard Preview
 Below is the static preview of the Excel dashboard. You can download the .xlsx file from the excel folder to explore the analysis in details.
-<img width="929" height="310" alt="Telco-churndasnboard" src="https://github.com/user-attachments/assets/b8548744-92e3-4cfc-90f7-c6bb00810ad9" />
 
 Based on my analysis, here are some of the key findings:
 - **Payment Method**: I find out that customers with using electronic checks as their payment method have the highest churn rate, followed by mail mailed check, then Bank transfer, and finally credits card.
@@ -56,3 +55,6 @@ Based on my provided insights, the following actions are recommended to reduce c
 2. **Enhance Support Services**: I Suggest highlighting the value of  services like Online Security and Tech Support in marketing to improve customers loyalty.
 3. **Tiered Pricing**: Which is to be considered seriously, I advice reviewing pricing strategies to ensure they are competitive and reflects with the service provided. 
 
+
+
+  
