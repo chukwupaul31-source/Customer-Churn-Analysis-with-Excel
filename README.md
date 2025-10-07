@@ -23,6 +23,7 @@ To conduct this analysis, I followed a structured workflow to ensure data accura
 4. **Dashboard Creation**: I designed an interactive dashboard that helps me present my key findings visually. I used pivot charts linked to pivot Tables to create dynamic visualizations that change based on the data.
 
 ## 📊Pivot Table Screenshot
+<img width="799" height="290" alt="pivot table png" src="https://github.com/user-attachments/assets/0cd9bc4b-6aef-4979-bd97-4e64088f5a77" />
 
 ## Technical Skills Demonstrated.
 - **Data Cleaning**: I used Excel functions and features to prepare raw data for analysis.
