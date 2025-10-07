@@ -56,7 +56,7 @@ Based on my provided insights, the following actions are recommended to reduce c
 3. **Tiered Pricing**: Which is to be considered seriously, I advice reviewing pricing strategies to ensure they are competitive and reflects with the service provided. 
 
 
-<img width="920" height="308" alt="Dashboard" src="https://github.com/user-attachments/assets/4a2dd0d0-e757-4c01-9ad4-493ab2c48e20" />
+
 
 
   
