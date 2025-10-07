@@ -41,8 +41,8 @@ This write up is organized to provide a clear overview of my projects and its de
    
  ## 🗂️Dashboard Preview
 
- <img width="929" height="310" alt="Telco-churndasnboard" src="https://github.com/user-attachments/assets/b5157eb5-6ba1-4b03-ae29-10f7f0158644" />
-
+ [<img width="929" height="310" alt="Telco-churndasnboard" src="https://github.com/user-attachments/assets/b5157eb5-6ba1-4b03-ae29-10f7f0158644" />
+](https://github.com/chukwupaul31-source/Brunto-Electronics-Performance-Sales-Dashboard/blob/main/Telco-churndasnboard.png?raw=true)
 Below is the static preview of the Excel dashboard. You can download the .xlsx file from the excel folder to explore the analysis in details.
 
 Based on my analysis, here are some of the key findings:
