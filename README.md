@@ -1,66 +1,147 @@
 # 📊Customer-Churn-Analysis-with-Excel
-This project is a comprehensive customer churn analysis for a fictional telecommunication company. Using Microsoft Excel, identified key factors that lead to customer attrition  and provided actionable, data driven recommendation to help the company improve customer retention. 
+This project is a comprehensive customer churn analysis for a fictional telecommunication company. Using Microsoft Excel, identified key factors that lead to customer 
 
-## 📌Project Overview
-This project involves comprehensive analysis of customer churn for a fictional Telecommunications company. My primary objective as a Business Analyst was to  identify the key factors that leads to to customers attritions and provide actionable, data driven recommendations to help the company improve customers retentions. I conducted all analysis using Microsoft Excel.
+# 📌Project Overview
 
-## ✨Key Features:
-- **Data Cleaning**: Handling of missing values, duplicates, and data types inconsistencies.
-- **Pivot Table Analysis**: I detailed analysis of churn by contract types, services, and tenure.
-- **Interactive Dashboard**: I created a dashboard with charts and tables providing a clear overview of churn patterns.
--**Data Driven Recommendations**: I conducted a prescriptive analysis that helps me translate the business insights into strategic business advice.
-
-  ## ⚒️Methodology, Data Structure, and Workflow.
-To conduct this analysis, I followed a structured workflow to ensure data accuracy and clarity.
-1. **Data Acquisition**: I begin this analysis by sourcing a raw dataset from Kaggle, which contains customers information including demographics, services, and churn status etc.
-2. **Data Cleaning and Preparation**: My first step during this analysis was to clean the data. By using Excels built in tools to:
-- Remove duplicate entries to ensure each row has a unique value.
-- I identify and handle missing values by deleting the rows  and filling in the data based on logical assumptions.
-- I corrected the data types to ensure all columns where formatted correctly for further analysis (e.g., numbers, text, dates).<br>
+This project focuses on analyzing customer churn for a fictional telecommunications company. Customer churn refers to the rate at which customers discontinue their services with a company. Understanding the factors influencing churn is essential for improving customer retention, reducing revenue loss, and enhancing overall customer satisfaction.
+The dataset used includes customer demographic details, account information, subscription plans, and service usage data. Using Microsoft Excel, this analysis explores customer behavior patterns, identifies key drivers of churn, and provides actionable recommendations to help the company retain more customers.
 
 
-3. **Data Analysis**: I leveraged on Pivot Tables to summarized and analyze the cleaned data from different angles. This allowed me to quickly identify business patterns and relationships between variables, such as churn rates among different contracts types.<br>
-4. **Dashboard Creation**: I designed an interactive dashboard that helps me present my key findings visually. I used pivot charts linked to pivot Tables to create dynamic visualizations that change based on the data.
+## 🗂️Dashboard
 
-## 📊Pivot Table Screenshot
-<img width="799" height="290" alt="pivot table png" src="https://github.com/user-attachments/assets/0cd9bc4b-6aef-4979-bd97-4e64088f5a77" />
+<img width="920" height="308" alt="Dashboard" src="https://github.com/user-attachments/assets/735d6d9f-624f-4f5a-904e-250822da74ec" />
 
-## Technical Skills Demonstrated.
-- **Data Cleaning**: I used Excel functions and features to prepare raw data for analysis.
-- **Formulas**: Proficiency with functions like COUNTIF, SUMIFS, AVERAGEIFS, etc.
-- **Pivot Tables And Pivot Charts**: I summarized the large dataset and created a dynamic visualization for presenting my analysis and further interpretation.
-- **Dashboard Creation**: I designed a professional and easy to read dashboard using Excel tools.
-- **Strategic Insights**: I conducted a Descriptive Analysis which helps me to translate the numerical data into meaningful business recommendations.
 
-## 🗃️Project Structure.
-This write up is organized to provide a clear overview of my projects and its deliverables.
-- README.MD: This file, provide a comprehensive description of my projects, including the objective, methodology, and key findings.
-- Data/: Contains the original raw dataset used for the analysis, typically named [WA_Fn-UseC_-Telco-Customer-Churn] https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-- Excel/: This folder holds the final Excel workbook ( Customer churn Analysis Dashboard), which includes all the data analysis sheets and the final dashboard
-[[https://eu.docworkspace.com/d/sIGKF5pGmAoPckMcG?sa=601.1037](https://eu.docworkspace.com/d/sIJqF5pGmAtGilMcG?sa=601.1037)]
-- Screenshot/: This contains the visual preview of the in image format (e.g., .png or .jpg)
-   
- ## 🗂️Dashboard Preview
+## ⚠️Problem Statement
 
- [<img width="929" height="310" alt="Telco-churndasnboard" src="https://github.com/user-attachments/assets/b5157eb5-6ba1-4b03-ae29-10f7f0158644" />
-](https://github.com/chukwupaul31-source/Brunto-Electronics-Performance-Sales-Dashboard/blob/main/Telco-churndasnboard.png?raw=true)
-Below is the static preview of the Excel dashboard. You can download the .xlsx file from the excel folder to explore the analysis in details.
+Customer attrition is one of the major challenges faced by telecommunications companies. Losing customers directly affects revenue, brand reputation, and market share.
 
-## 📊Based on my analysis, here are some of the key findings:
-- **Payment Method**: I find out that customers with using electronic checks as their payment method have the highest churn rate, followed by mail mailed check, then Bank transfer, and finally credits card.
-- **Contract Types Matters**: Customers with a **Month-to-month contract**  have a higher churn rate compared to those with one year,  and Two year contracts.
-- **Service Adoption Reduces Churn**: Customers with additional services like Online Security and Tech Support shows lower churn rate.
-- **Pricing Impact**: Higher monthly charges are correlated with a higher probability of churn, especially among short terms customers.
+The goal of this project is to analyze customer churn data to identify key factors contributing to customer loss and to provide data-driven recommendations to improve retention. Specifically, the analysis aims to answer:
 
-  
+1. What are the main factors driving customer churn?
+
+2. Which customer segments are most likely to leave?
+
+3. How do contract types, payment methods, and service usage influence churn rates?
+
+
+##  📋Data Structure
+
+The dataset contains 7,043 entries with 21 columns representing customer demographic and service information. Key attributes include:
+
+- Customer ID
+
+- Gender
+
+- Senior Citizen
+
+- Partner and Dependents
+
+- Tenure (in months)
+
+- Contract Type
+
+- Payment Method
+
+- Monthly Charges and Total Charges
+
+- Internet Service, Online Security, and Tech Support
+
+- Churn Status (Yes/No)
+
+## ✨Key Features
+
+- Data Cleaning and Preparation: Used Excel’s Power Query to remove duplicates, handle missing values, and correct inconsistent data types.
+
+- Descriptive Analysis: Conducted exploratory data analysis using Pivot Tables and Charts to uncover churn trends across customer segments.
+
+- Interactive Dashboard: Created dynamic dashboards that visualize churn rate by contract type, tenure, payment method, and services subscribed.
+
+- KPI Tracking: Monitored metrics like total customers, churn percentage, and revenue impact using DAX-style calculations in Excel.
+
+- Visual Storytelling: Designed intuitive charts and slicers for quick insight discovery and better stakeholder communication.
+
+- Strategic Insights: Translated analytical results into practical, actionable business recommendations for customer retention.
+
+
+##  ⚒️Methodology
+
+The entire analysis was performed using Microsoft Excel, following a structured workflow to ensure data accuracy and clarity.
+The dataset contains information on various coins Features, including Tmestamp, coin name, Open price, Close price, percentage change, Status, Average, and Total. The following steps where taking to anlyze the data:
+
+1. Data Acquisition
+The dataset was obtained from Kaggle — Telco Customer Churn Dataset (source).
+
+2. Data Cleaning and Preparation (Power Query)
+
+- Removed duplicate records to maintain data integrity.
+
+- Identified and handled missing values appropriately.
+
+- Corrected data types (e.g., dates, numeric, text) for consistency.
+
+- Filtered irrelevant columns and standardized categorical values.
+
+3. Exploratory Data Analysis (EDA)
+Conducted descriptive and diagnostic analyses using Excel features such as:
+
+- Pivot Tables to summarize churn by contract type, tenure, and payment method.
+
+- Pivot Charts to visualize patterns and relationships between variables.
+
+- Conditional Formatting to highlight high-risk churn segments.
+
+4. Dashboard Creation
+Designed an interactive Excel dashboard using pivot charts and slicers to visualize:
+
+- Churn rate by customer segment
+
+- Churn distribution by services and contract type
+
+- Average monthly charges and tenure comparisons
+
+ ## Pivot Tables📊
+
+<img width="799" height="290" alt="pivot table png" src="https://github.com/user-attachments/assets/1f68b1f3-5bfe-43e6-8018-fbb3cdc0d7b3" />
+
+
+## 📊Key Insights and Findings
+
+- Contract Type Matters: Customers on month-to-month contracts had the highest churn rates, while those on one-year or two-year contracts were more loyal.
+
+- Payment Method Influence: Customers using electronic checks were more likely to churn compared to those using credit cards or bank transfers.
+
+- Service Adoption Reduces Churn: Customers who subscribed to Online Security and Tech Support showed significantly lower churn rates.
+
+- Pricing Impact: Higher monthly charges were associated with an increased likelihood of churn, especially among short-term customers.
+
+- Customer Tenure: Customers with less than 12 months of tenure were more likely to leave, indicating the importance of early engagement strategies.
+
+
 ## 💡Recommendations
-Based on my provided insights, the following actions are recommended to reduce customers churn rate:
-1. **Promote Long Term Contracts**: I recommended offering attractive discounts or incentives to encourage customers to switch from month-to-month to longer term plans.
-2. **Enhance Support Services**: I Suggest highlighting the value of  services like Online Security and Tech Support in marketing to improve customers loyalty.
-3. **Tiered Pricing**: Which is to be considered seriously, I advice reviewing pricing strategies to ensure they are competitive and reflects with the service provided. 
+
+1. Promote Long-Term Contracts
+Offer incentives and discounts to encourage customers to switch from month-to-month to annual plans, improving retention stability.
 
 
+2. Enhance Customer Support Services
+Strengthen the value proposition of Online Security and Tech Support services through targeted marketing and bundled offers.
 
 
+3. Implement Tiered Pricing Models
+Review pricing strategies to ensure competitiveness and alignment with service quality, especially for high-churn segments.
 
-  
+
+4. Early Engagement Strategy
+Introduce personalized onboarding programs and loyalty rewards for new customers to reduce early-stage churn.
+
+
+5. Monitor High-Risk Payment Methods
+Analyze customers using electronic checks and develop targeted interventions, such as discounts for switching to automatic payments.
+
+
+6. Feedback and Retention Programs
+Conduct regular satisfaction surveys and follow-up initiatives for customers nearing contract renewal to proactively address concerns.
+
+🏁Conclusion
+This analysis highlights the importance of contract type, payment method, service adoption, and pricing in influencing customer churn. By implementing the recommended strategies, the telecom company can improve customer satisfaction, reduce churn, and achieve sustainable business growth
