@@ -46,7 +46,7 @@ This write up is organized to provide a clear overview of my projects and its de
 ](https://github.com/chukwupaul31-source/Brunto-Electronics-Performance-Sales-Dashboard/blob/main/Telco-churndasnboard.png?raw=true)
 Below is the static preview of the Excel dashboard. You can download the .xlsx file from the excel folder to explore the analysis in details.
 
-Based on my analysis, here are some of the key findings:
+## 📊Based on my analysis, here are some of the key findings:
 - **Payment Method**: I find out that customers with using electronic checks as their payment method have the highest churn rate, followed by mail mailed check, then Bank transfer, and finally credits card.
 - **Contract Types Matters**: Customers with a **Month-to-month contract**  have a higher churn rate compared to those with one year,  and Two year contracts.
 - **Service Adoption Reduces Churn**: Customers with additional services like Online Security and Tech Support shows lower churn rate.
